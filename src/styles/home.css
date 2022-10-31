@@ -1,0 +1,227 @@
+.hero__content {
+    margin-top: 12%;
+}
+.hero__content h2{
+    color: var(--primary-color);
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 50px;
+}
+.hero__img img {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+}
+.hero__content p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--primary-color);
+    margin: 59px 0;
+}
+.buy__btn{
+    background-color:var(--button-bg);
+    height: 40px;
+width: 175px;
+border-radius: 8px;
+border:none;
+color:#fff;
+}
+.buy__btn a:hover{
+    color:#fff;
+}
+.buy__btn:hover{
+    color:#fff;
+    background-color: var(--primary-color);
+}
+p.subtitle {
+    font-size: 30px;
+}
+span.paragraphe {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    display: inline-block;
+}
+
+/**section1***/
+section.content {
+    background: var(--block-bg);
+    padding: 5% 0;
+}
+.text h2 {
+    /* font-family: Poppins; */
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--primary-color);
+}
+.text-btn{
+    padding-left: 27%;
+}
+.text-btn p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--primary-color);
+    margin-bottom: 10%;
+}
+button.discover{
+    background-color:var(--button-bg);
+    height: 40px;
+width: 175px;
+border-radius: 8px;
+border:none;
+color:#fff;
+}
+
+/****section2***/
+section.Strong.points {
+    background-color: var(--primary-color);
+    padding: 8% 0;
+}
+img.img-point {
+    height: 62px;
+    width: 72px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+.price {
+    border-radius: 8px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    background: #FFFFFF;
+    padding: 15%;
+    width: 84%;
+    display: block;
+    margin: 0px auto;
+}
+.price h3 {
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: var(--primary-color);
+    margin: 30px 0;
+}
+.price p {
+    color: var(--primary-color);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+     /***section5***/
+     .timer__count{
+        background-color:var(--primary-color) ;
+     height: 300px;
+    }
+    .timer__count img{
+        width:70%!important;
+        height: 70%!important;
+        object-fit: contain;
+    }
+    .store__btn{
+        background-color: #fff;
+        color: var(--primary-color);
+        border: none;
+        border-radius: 8px;
+        padding:6px;
+        margin-top:4%;
+    }
+    .store__btn a:hover{
+        color:#000;
+    
+    }
+    @media only screen and (width:992px){
+    .price h3 {
+        font-size: 17px;
+        line-height: 27px;
+        font-weight: 600;
+    }
+}
+@media only screen and (max-width:992px){
+    button.\"buy__btn.store__btn {
+    display: block;
+    text-align: center;
+    margin: 26px auto;
+}
+.hero__content h2{
+    font-size: 2rem;
+    line-height: 40px;
+}
+.section__title{
+  font-size: 1.7rem;
+}
+.section__title{
+    font-size: 1.7rem;
+}
+.counter__img{
+display: none;
+}
+.clock__top-content{
+    text-align: center;
+}
+.clock__top-content h4{
+    font-size: .9rem!important;
+    justify-content: center;
+}
+.clock__top-content h3{
+    font-size: 1rem!important;
+}
+.count__down-col{
+    text-align: center;
+}
+
+}
+@media only screen and (max-width:768px){
+    .hero__content h2{
+        font-size: 1.6rem;
+        line-height: 40px;
+    }
+    .hero__content p{
+        font-size: 0.9rem;
+        margin: 15px 0;
+    }
+    .buy__btn a{
+        font-size:0.9rem  ;
+    }
+    .section__title{
+        font-size: 1.4rem;
+    }
+    .price h3 {
+        font-size: 17px;
+        line-height: 27px;
+        font-weight: 600;
+    }
+    }
+    @media only screen and (min-width:767px){
+    .price {
+        display: block;
+        margin: 10px auto;
+    }}
+    @media only screen and (max-width:767px){
+        
+        .hero__img img {
+            display: inline;
+         text-align: left;
+         margin: 0 auto;
+         width: 67%;
+     }
+     }
+    @media only screen and (max-width:576px){
+       .hero__content{
+        padding-top:0;
+        margin-bottom: 40px;
+       }
+    
+    }

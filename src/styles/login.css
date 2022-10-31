@@ -1,0 +1,55 @@
+.auth__form{
+    padding: 0 40px;
+    border-radius: 5px;
+}
+.login__btn{
+    background-color: #fff!important;
+    color:var(--primary-color);
+    font-weight:600;
+}
+.auth__form p{
+    margin-top: 30px;
+}
+.auth__form input[type='file']{
+ color:#fff;
+ 
+}
+.block_img {
+    background: var(--primary-color);
+}
+.Img img {
+    height: 584px;
+    width: 588px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+.form__group input, .form__group textarea {
+    width: 100%;
+    border-radius: 5px;
+    padding: 8px 20px;
+    background: linear-gradient(0deg, #F0F0F0, #F0F0F0), linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    border: 1px solid #F0F0F0;
+}
+button.buy__.btn.auth__btn.btn.btn-primary {
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 21px;
+}
+a.lien-sign {
+    color: var(--primary-color);
+}
+p.bg-sign {
+
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    height: 135px;
+    width: 418px;
+}
+.col-lg-6.sign {
+    background: var(--primary-color);
+}
